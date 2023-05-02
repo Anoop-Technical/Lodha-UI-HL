@@ -1,0 +1,261 @@
+.main_wrapper {
+  height: 100%;
+}
+
+.main_section {
+  background: url(../images/bg-img.png);
+  height: auto;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.main_section .build h1 {
+  font-weight: 700;
+  font-size: 52px;
+  line-height: 78px;
+  color: #FFFFFF;
+  margin-top: 50px;
+}
+
+.better_home {
+  max-width: 460px;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.25);
+  display: flex;
+  align-items: center;
+  padding: 5px 20px;
+  margin-top: 10px;
+  margin-bottom: 120px;
+}
+
+.main_section .build .better_home h3 {
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 45px;
+  color: #FFFFFF;
+}
+
+.silver_txt {
+  color: #ECB43A;
+}
+
+.main_section .build p {
+  font-weight: 400;
+  font-size: 23px;
+  line-height: 34px;
+  color: #FFFFFF;
+}
+
+.features_wrapper {
+  max-width: 545px;
+  width: 100%;
+  margin-top: 65px;
+}
+
+.features_wrapper .fea_box {
+  display: flex;
+}
+
+.cuborder_bt {
+  border-bottom: 3px solid #fff;
+}
+
+.comBorder {
+  border-right: 3px solid #fff;
+  border-left: 3px solid #fff;
+}
+
+.features_wrapper .inner_bx {
+  text-align: center;
+  padding: 30px 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 15px;
+  width: 33.33%;
+}
+
+.features_wrapper .inner_bx span {
+  display: block;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 21px;
+  color: #FFFFFF;
+}
+
+.form_wrapper {
+  position: relative;
+  padding: 40px 30px;
+  background: #ffffff;
+  border: 1px solid #e0baca;
+  border-radius: 4px;
+}
+
+.form_wrapper h2 {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 25px;
+  color: #1e2a3b;
+  margin-bottom: 30px;
+}
+
+.btnArrow {
+  margin-left: 10px;
+}
+
+.check_show {
+  display: flex;
+  line-height: 15px !important;
+  font-size: 11px !important;
+}
+
+/* Tab css start here */
+
+.img_box {
+  max-width: 367px;
+  max-height: 267px;
+  height: 100%;
+  width: 100%;
+}
+
+.tab_btn {
+  position: relative;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 24px;
+  max-width: 144px;
+  width: 100%;
+  color: #878787;
+  border: none !important;
+}
+
+.tab_btn:hover,
+.tab_btn:focus {
+  color: #878787;
+}
+
+.tab_btn.active {
+  color: #000000 !important;
+}
+
+.tab_btn.active::before {
+  content: "";
+  border-bottom: 4px solid #BD9234;
+  width: 144px;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+
+.gallary_container {
+  display: block;
+}
+
+/* Tab css end here */
+
+@media screen and (min-width: 2000px) {
+  footer {
+    height: 100%;
+  }
+}
+
+@media screen and (max-width: 1199.98px) {
+  .main_section .build h1 {
+    font-size: 41px;
+    line-height: 54px;
+  }
+
+  .main_section .build .better_home h3 {
+    font-size: 24px;
+    line-height: 34px;
+  }
+
+  .main_section .build p {
+    font-size: 18px;
+    line-height: 28px;
+  }
+
+  .better_home {
+    margin-bottom: 20px;
+  }
+
+  .features_wrapper {
+    margin-top: 95px;
+  }
+}
+
+@media screen and (max-width: 991.98px) {
+  .form_wrapper {
+    margin-bottom: 30px;
+  }
+
+  .gallary_container {
+    display: none;
+  }
+
+  .features_wrapper {
+    margin: 30px auto;
+  }
+}
+
+@media screen and (max-width: 767.98px) {
+  .main_section .build h1 {
+    font-size: 24px;
+    line-height: 42px;
+  }
+
+  .main_section .build .better_home h3 {
+    font-size: 24px;
+    line-height: 36px;
+  }
+
+  .main_section .build p {
+    font-size: 14px;
+    line-height: 21px;
+  }
+
+  .features_wrapper .inner_bx span {
+    font-size: 12px;
+    line-height: 15px;
+  }
+
+  .icon_width {
+    max-width: 32px;
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 575.98px) {
+  .main_section {
+    background: url(../images/bg-img-mob.png);
+    height: auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .form_wrapper {
+    border-radius: 8px;
+    padding: 15px 10px;
+  }
+
+  .main_section .build h1 {
+    line-height: 34px;
+  }
+
+  .form_wrapper h2 {
+    font-size: 16px;
+    line-height: 20px;
+    margin-bottom: 12px;
+  }
+
+  .main_section .build p {
+    font-size: 14px;
+    line-height: 21px;
+  }
+
+  .features_wrapper .inner_bx {
+    padding: 20px 10px;
+    gap: 10px;
+  }
+}
